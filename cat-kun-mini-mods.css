@@ -1,0 +1,47 @@
+.order-info{
+	z-index: 15 !important;
+}
+
+div.order-overlay-info{
+	text-align: left;
+	padding: .65rem !important;
+	background: #212121eb !important;
+	color: #fafafa;
+	font-size: 1rem !important;
+	white-space: nowrap !important;
+	gap: .5em !important;
+  border-radius: 1.5em;
+}
+
+div.order-overlay-info > div:nth-child(1){
+  display: none;
+}
+
+div.order-overlay-info > div.order-overlay-status{
+  background: #0062ff;
+  line-height: 1.65em;
+  border-radius: 2em;
+}
+
+.order-overlay-handovers {
+	line-height: 1.25rem !important;
+}
+
+div.robot-and-overlay.full-screen section.custom-map-container{
+  display: none;
+  width: 0 !important;
+}
+
+.order-overlay-handovers{
+  padding-top: 1em;
+	line-height: 1.65rem !important;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+span.order-overlay-handover-item > div:first-child{
+  background: #ff6200;
+  border-radius: 2em;
+  padding: 0 1em;
+}
